@@ -1,0 +1,196 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:black;
+}
+/*
+1. Tu ngoai vao trong
+2. Tu tren xuong duoi
+3. Tong quan den chi tiet
+*/
+
+/*
+1. Vi tri
+2. Kich thuoc
+3. Mau sac
+4. Kieu dang
+*/
+.text-white{
+    color: black !important;
+}
+#main{
+
+}
+#header{
+height: 46px;
+background-color: #181733;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+#nav {
+    display: inline-block;
+    list-style: none;
+}
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav >li{
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+    box-shadow: 0 0 10px rgb(255, 255, 255, 0.2) ;
+}
+#nav .nav-arrow-down{
+    font-size: 10px;
+}
+#nav > li >a{
+    text-transform: uppercase;
+}
+#nav li:hover a{
+    color: #181733;
+    background-color: white;
+
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: floralwhite;
+    list-style: none;
+}
+#nav li:hover .subnav{
+    min-width: 100px;
+    display: block;
+}
+#nav .subnav li:hover a{
+    color: floralwhite;
+    background-color: #181733;
+}
+#nav .subnav a{
+    color: #181733;
+    padding: 0px 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0 , 0.2);
+}
+
+#header .search-btn {
+    
+    float: right;
+    padding: 0 21px;
+   
+}
+#header .search-icon{
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 46px;
+    
+}
+#header .search-btn:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+#header .search-btn:hover > .search-icon{
+    color: #181733;
+}
+#nav li  a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#header .fl {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 15px;
+    float:right;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#header .fl >a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+    padding-top: 15px;
+    text-decoration: none;
+    font-style: oblique;
+}
+#header .fl:hover{
+    cursor: pointer;
+}
+#header .fl >a >.logo{
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: -3px;
+
+}
+
+#slider{
+margin-top: 46px;
+padding-top: 60%; /* 50% chieu ngang cua chinh no */
+background: url(/assets/img/Barca-Team-IMAGO.jpg) top center /cover no-repeat;
+margin-right: 200px;
+margin-left: 200px;
+
+}
+
+#content{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 64px 0;
+
+    text-align: justify;
+    background-color: #000000;
+}
+#content .content-section{
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+}
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    color: rgb(100, 15, 15);
+    
+}
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 50%;
+}
+
+#content .about-section{
+    font-size: 15px;
+    margin-top: 15px;
+    
+    line-height: 1.5;
+}
+
+#content .tour-section{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+#footer{
+
+}
